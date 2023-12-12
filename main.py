@@ -1,6 +1,6 @@
-# .env 로드
-from dotenv import load_dotenv
-load_dotenv()
+# # .env 로드
+# from dotenv import load_dotenv
+# load_dotenv()
 
 # 챗모드로 ChatGPT 연동
 from langchain.chat_models import ChatOpenAI 
