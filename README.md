@@ -71,7 +71,14 @@ st.title("_Streamlit_ is :blue[cool] :sunglasses:")
 $streamlit run main.py
 ```
 
-12. streamlit으로 text_input, button, spinner, write 등을 사용해 프론트엔드 구성 및 api 연동
+12. requirements.txt에 streamlit 추가
+```
+langchain
+openai
+streamlit
+```
+
+13. streamlit으로 text_input, button, spinner, write 등을 사용해 프론트엔드 구성 및 api 연동
 ```py
 # .env 로드
 from dotenv import load_dotenv
@@ -96,3 +103,6 @@ if st.button("시 작성 요청하기"):
 ```
 
 13. 배포
+```
+깃헙에 .env 제거 후 업로드, streamlit에 가입 후 깃헙 선택, .env 에 작성한 값을 advanced settings에 "" 넣어서 추가 및 배포
+```
